@@ -1,7 +1,7 @@
 # Decision-Trees
 
 # Decision trees
-- **A decision tree is a supervised machine learning algorithm that employs a tree-like structure to make decisions or predictions based on input features.**
+- **A decision tree is a supervised machine learning algorithm** that employs a tree-like structure to make decisions or predictions based on input features.
 - **It recursively splits the data based on different attributes and their thresholds, creating decision boundaries that divide the input space into regions associated with specific outcomes or class labels.**
 
 <img width="723" alt="Screenshot 2024-02-19 at 1 43 33 PM" src="https://github.com/ColleenJung/Decision-Trees/assets/119357849/07760569-2176-4b8d-824f-28823a9f8e6a">
