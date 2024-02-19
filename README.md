@@ -32,13 +32,12 @@ Leo Breiman, Jerome Friedman, Charles J. Stone, Richard A. Olshen (1984). Classi
 
 2. CHAID – CHi-squared Automatic Interaction Detector
 Gordon V. Kass (1980). An Explanatory Technique for Investigating Large Quantities of Categorical Data, Applied Statistics (Journal of the Royal Statistical Society, Series C), volume 29, number 2, pages 119-127.
-![image](https://github.com/ColleenJung/Decision-Trees/assets/119357849/895e962c-c160-4d44-895e-8a2a3823eb3a)
 
 # Make Consequences as Distinctive as Possible(Impurity Metric)
 
 <img width="486" alt="Screenshot 2024-02-19 at 3 54 15 PM" src="https://github.com/ColleenJung/Decision-Trees/assets/119357849/9efb2dba-b381-4513-bba0-7d977d79f802">
 
-# Entropy and Gini Index for a Split
+# Entropy and Gini Index for a Split(A high reduction in entropy is good)
 - **Entropy** in physics is simply a metric for measuring the degree of disorder or randomness of a system.
 - In the context of Decision Trees, it can be thought of as a measure of disorder or uncertainty
 - **Information gain** is a metric that helps us determine which attribute in a given set of training **feature vectors is most useful** for discriminating between target classes.
@@ -59,6 +58,7 @@ Gordon V. Kass (1980). An Explanatory Technique for Investigating Large Quantiti
 <img width="479" alt="Screenshot 2024-02-19 at 3 56 56 PM" src="https://github.com/ColleenJung/Decision-Trees/assets/119357849/171a3064-92b6-4969-967b-f376028e89ba">
 
 1. Predictor Missing Values Handling
+
 <img width="481" alt="Screenshot 2024-02-19 at 3 58 04 PM" src="https://github.com/ColleenJung/Decision-Trees/assets/119357849/805989d3-945e-4115-b943-292aa2040933">
 
 2. Temptation to Overfit the Data
@@ -72,6 +72,7 @@ https://scikit-learn.org/stable/modules/classes.html#module-sklearn.tree
 - tree.plot_tree()			Draw a tree diagram
 
 # tree.DecisionTreeRegressor()
+
 <img width="839" alt="image" src="https://github.com/ColleenJung/Decision-Trees/assets/119357849/c870ebad-7517-43a1-9a0c-528ac4ef78f4">
 
 # Cutoff Values From sklearn.tree
