@@ -1,9 +1,14 @@
 # Decision-Trees
-#CART algorithm
+
+# Decision trees
+**- A decision tree is a supervised machine learning algorithm that employs a tree-like structure to make decisions or predictions based on input features.**
+**- It recursively splits the data based on different attributes and their thresholds, creating decision boundaries that divide the input space into regions associated with specific outcomes or class labels.**
 
 <img width="723" alt="Screenshot 2024-02-19 at 1 43 33 PM" src="https://github.com/ColleenJung/Decision-Trees/assets/119357849/07760569-2176-4b8d-824f-28823a9f8e6a">
 
 # Terminoglogy of a Decision Tree
+
+<img width="525" alt="Screenshot 2024-02-19 at 4 06 17 PM" src="https://github.com/ColleenJung/Decision-Trees/assets/119357849/4a58e6e2-62a1-4ea2-b7fe-d796a6a65264">
 
 - Each box in the tree diagram is called a **Node.**
 - Each line in the tree diagram is called a **Branch or a Split.**
@@ -34,6 +39,10 @@ Gordon V. Kass (1980). An Explanatory Technique for Investigating Large Quantiti
 <img width="486" alt="Screenshot 2024-02-19 at 3 54 15 PM" src="https://github.com/ColleenJung/Decision-Trees/assets/119357849/9efb2dba-b381-4513-bba0-7d977d79f802">
 
 # Entropy and Gini Index for a Split
+- **Entropy** in physics is simply a metric for measuring the degree of disorder or randomness of a system.
+- In the context of Decision Trees, it can be thought of as a measure of disorder or uncertainty
+- **Information gain** is a metric that helps us determine which attribute in a given set of training **feature vectors is most useful** for discriminating between target classes.
+- **A high reduction in entropy is good** as we’re able to distinguish between target classes better. **This simply implies that we choose the feature which has the highest information gain.**
 
 <img width="443" alt="Screenshot 2024-02-19 at 3 55 00 PM" src="https://github.com/ColleenJung/Decision-Trees/assets/119357849/6a78cece-6f5d-4978-bcee-4d09a6bc4256">
 
